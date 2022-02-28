@@ -1,0 +1,3 @@
+useDynLib(MMIntAdd, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("Add_case2_inte","Add_ci_boot")
