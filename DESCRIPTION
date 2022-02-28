@@ -9,5 +9,6 @@ Description: Estimating parameters of the additive
              risks model with time-independent covariates 
              and case-II interval censored data. 
 License: Unlimited
+LazyData: true
 Imports: Rcpp (>= 1.0.4.6),boot
 LinkingTo: Rcpp, RcppArmadillo
