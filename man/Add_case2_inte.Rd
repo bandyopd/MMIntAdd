@@ -32,8 +32,8 @@ Add_case2_inte(data,hn.m,Max_iter=1000,Tol=1e-3)
 Function Add_case2_inte returns a list containing the following components:
 
 
-\item{beta}{The first column contains the estimate of the regression parameters. The second column contains the estimated standard error of these estimators. This standard error computation makes use of the oscillation parameter hn.}
-\item{lambda}{The estimate of the step function for the cumulative hazard function
+\item{beta}{The first column contains the estimate of the regression parameters. The second column contains the estimated standard error of these estimators. This standard errors computation makes use of the oscillation parameter hn.}
+\item{lambda}{The estimate of the baseline hazard function at the unique inspection time points.
 }
 \item{log.likelihood}{
  The log-likelihood value.
@@ -41,6 +41,10 @@ Function Add_case2_inte returns a list containing the following components:
 \item{tk}{
  The set of the unique inspection time points.
 }
+
+}
+\references{
+Wang, T., Bandyopadhyay, D., and Sinha, S. (2022). \emph{Efficient estimation of the additive risks model for interval-censored data.} To appear as a book chapter.
 
 }
 

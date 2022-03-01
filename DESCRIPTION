@@ -1,13 +1,11 @@
 Package: MMIntAdd
 Type: Package
-Title: Functions for a novel minorize-maximiz algorithm
+Title: Functions for fitting additive hazard regression model to interval-censored data using a novel minorize-maximiz algorithm
 Version: 1.0
 Date: 2022-02-27
-Author: Tong Wang, Samiran Sinha, Dipankar Bandyopadhyay
+Author: Tong Wang, Dipankar Bandyopadhyay, Samiran Sinha
 Maintainer: Tong Wang <wangtong@nankai.edu.cn>
-Description: Estimating parameters of the additive 
-             risks model with time-independent covariates 
-             and case-II interval censored data. 
+Description: Estimating parameters of the additive risks model with time-independent covariates and case-II interval censored data. 
 License: Unlimited
 Imports: Rcpp (>= 1.0.4.6),boot
 LinkingTo: Rcpp, RcppArmadillo

@@ -21,15 +21,15 @@ A data frame. The first and second column record the left and right inspection t
 \item{time_points}{
 A vector containing the time points where the survival probabilities are to be predicted.
 }
- \item{covariate_value}{
-A scalar or vector containing the covariates for which survival probabilities are to be predicted. 
+
+\item{covariate_value}{A scalar or vector containing the covariates for which survival probabilities are to be predicted. 
 }
    \item{CItype}{
    A vector of character strings representing the type of intervals required.
 The value should be any subset of c("norm","basic","perc","bca"). The default value is c("norm","basic","perc","bca").
    }
    \item{conf}{
-   A scalar  containing the confidence level of the required interval. The default value is 0.95
+   A scalar  containing the confidence level of the required interval. The default value is 0.95.
    }
    \item{boot.num}{
    The number of bootstrap replicates. The default value is 200.
