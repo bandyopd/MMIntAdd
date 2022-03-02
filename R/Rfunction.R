@@ -291,7 +291,7 @@ Add_case2_inte=function(data,hn.m,Max_iter=1000,Tol=1e-3){
     S0=append(S0,exp(-Lambda))
   }
   Est_surv=cbind(S1,S0,tk)
-  finalresult=list(beta=betaresult,lambda=lambdaest,log.likelihood=log_likelihood,tk=tk,Est_surve=Est_surv)
+  finalresult=list(beta=betaresult,lambda=lambdaest,log.likelihood=log_likelihood,tk=tk)
   
   
   
@@ -349,7 +349,7 @@ Add_case2_inte=function(data,hn.m,Max_iter=1000,Tol=1e-3){
       S0=append(S0,exp(-Lambda))
     }
     Est_surv=cbind(S1,S0,tk*10)
-    finalresult=list(beta=betaresult,lambda=lambdaest,log.likelihood=log_likelihood,tk=tk*10,Est_surv=Est_surv)
+    finalresult=list(beta=betaresult,lambda=lambdaest,log.likelihood=log_likelihood,tk=tk*10)
     
   }
   
