@@ -1,5 +1,5 @@
 # MMIntAdd
-# Package can be installed via "devtools"; use
+# Package can be installed via "devtools"; using
 
 library(devtools)
 
